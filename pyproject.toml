@@ -3,11 +3,11 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "small-model-alignment-starter"
+name = "small-model-alignment"
 version = "0.1.0"
-description = "Starter files for a small-model SFT and DPO alignment assignment."
+description = "SFT and Direct Preference Optimization on a small language model."
 requires-python = ">=3.10"
 dependencies = []
 
 [tool.setuptools]
-packages = []
+packages = ["alignment"]
