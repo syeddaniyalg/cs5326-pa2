@@ -1,0 +1,14 @@
+{
+  "torch": "2.5.1",
+  "transformers": "4.49.0",
+  "datasets": "4.8.4",
+  "cuda_available": true,
+  "gpu_count": 1,
+  "gpus": [
+    {
+      "index": 0,
+      "name": "NVIDIA GeForce RTX 4050 Laptop GPU",
+      "memory_gib": 6.0
+    }
+  ]
+}

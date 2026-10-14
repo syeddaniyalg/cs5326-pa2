@@ -3,3 +3,13 @@ __pycache__/
 .ipynb_checkpoints/
 *.egg-info/
 .pytest_cache
+.venv-pa2/
+
+# Large generated model/checkpoint artifacts
+# Lightweight metrics, generations, figures, and tables under outputs/ remain trackable.
+outputs/**/best/
+outputs/**/final/
+outputs/**/adapter/
+outputs/**/merged/
+outputs/**/trainer_state/
+outputs/**/checkpoint-*/

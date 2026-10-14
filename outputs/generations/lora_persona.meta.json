@@ -1,0 +1,23 @@
+{
+  "model_path": "D:\\projects\\Assignments\\CS5326\\PA2\\cs5326-pa2\\outputs\\lora_dpo\\merged",
+  "adapter_path": null,
+  "prompts_path": "eval_sets/persona_style_eval_40.json",
+  "output_path": "outputs/generations/lora_persona.json",
+  "generator_name": "lora_dpo",
+  "dataset_name": "persona_style_eval",
+  "prompt_format": "chat",
+  "max_new_tokens": 256,
+  "max_prompt_tokens": 256,
+  "batch_size": 256,
+  "repetition_penalty": 1.0,
+  "no_repeat_ngram_size": 0,
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "dtype": "float16",
+  "device": "cuda:0",
+  "limit": null,
+  "print_outputs": false,
+  "seed": 42,
+  "num_prompts": 40,
+  "finished_at": "2026-10-15 00:56:31"
+}

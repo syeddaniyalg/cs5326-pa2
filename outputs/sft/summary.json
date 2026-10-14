@@ -1,0 +1,10 @@
+{
+  "total_steps": 938,
+  "best_step": 938,
+  "best_val_loss": 1.3900643439076898,
+  "final_val_loss": 1.3900643439076898,
+  "train_examples": 30000,
+  "val_examples": 1000,
+  "effective_batch_size": 32,
+  "train_seconds": 6024.9
+}

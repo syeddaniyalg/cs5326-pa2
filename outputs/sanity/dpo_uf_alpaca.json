@@ -1,0 +1,29 @@
+[
+  {
+    "id": "alpaca-eval-0000",
+    "instruction": "What are the names of some famous actors that started their careers on Broadway?",
+    "output": "1. Marlon Brando\n2. Marlon Brando\n3. Marlon Brando\n4. Marlon Brando\n5. Marlon Brando\n6. Marlon Brando\n7. Marlon Brando\n8. Marlon Brando\n9. Marlon Brando\n10. Marlon Brando",
+    "generator": "dpo_uf",
+    "dataset": "alpaca_eval",
+    "num_new_tokens": 71,
+    "finished": true
+  },
+  {
+    "id": "alpaca-eval-0002",
+    "instruction": "Hi, my sister and her girlfriends want me to play kickball with them. Can you explain how the game is played, so they don't take advantage of me?",
+    "output": "Sure, here's a basic explanation of how kickball is played:\n\n1. The game starts with a ball being thrown by the player who is designated as the \"kickballer.\" The kickballer then passes the ball to a teammate who is designated as the \"batter.\"\n\n2. The batter then throws the ball back to the kickballer, who then passes it to another teammate, who is designated as the \"batter.\"\n\n3. The batter then throws the ball back to the kickballer, who then passes it to another teammate, who is designated as the \"batter.\"\n\n4. The batter then throws the ball back to the kickballer, who then passes it to another teammate, who is designated as the \"batter.\"\n\n5. The batter then throws the ball back to the kickballer, who then passes it to another teammate, who is designated as the \"batter.\"\n\n6. The batter then throws the ball back to the kickballer, who then passes it to another teammate, who is designated as the \"batter.\"\n\n7. The batter then throws the ball back to the kickballer, who then passes it to another teammate, who is designated as the \"batter.\"\n\n8. The batter then throws the",
+    "generator": "dpo_uf",
+    "dataset": "alpaca_eval",
+    "num_new_tokens": 256,
+    "finished": false
+  },
+  {
+    "id": "alpaca-eval-0003",
+    "instruction": "What is some cool music from the 1920s?",
+    "output": "1. \"The Thrill of It All\" by The Rolling Stones\n2. \"The Man from Snowy River\" by The Rolling Stones\n3. \"The Thrill of It All\" by The Rolling Stones\n4. \"The Thrill of It All\" by The Rolling Stones\n5. \"The Thrill of It All\" by The Rolling Stones\n6. \"The Thrill of It All\" by The Rolling Stones\n7. \"The Thrill of It All\" by The Rolling Stones\n8. \"The Thrill of It All\" by The Rolling Stones\n9. \"The Thrill of It All\" by The Rolling Stones\n10. \"The Thrill of It All\" by The Rolling Stones",
+    "generator": "dpo_uf",
+    "dataset": "alpaca_eval",
+    "num_new_tokens": 151,
+    "finished": true
+  }
+]

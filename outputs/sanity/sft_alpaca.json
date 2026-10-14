@@ -1,0 +1,29 @@
+[
+  {
+    "id": "alpaca-eval-0000",
+    "instruction": "What are the names of some famous actors that started their careers on Broadway?",
+    "output": "1. Marlon Brando\n2. Marlon Brando\n3. Marlon Brando\n4. Marlon Brando\n5. Marlon Brando\n6. Marlon Brando\n7. Marlon Brando\n8. Marlon Brando\n9. Marlon Brando\n10. Marlon Brando",
+    "generator": "sft",
+    "dataset": "alpaca_eval",
+    "num_new_tokens": 71,
+    "finished": true
+  },
+  {
+    "id": "alpaca-eval-0002",
+    "instruction": "Hi, my sister and her girlfriends want me to play kickball with them. Can you explain how the game is played, so they don't take advantage of me?",
+    "output": "Sure, here's how the game is played:\n\n1. The ball is placed in the center of the court, and both teams have a ball.\n\n2. The ball is thrown by the team with the ball, and the other team has to catch it.\n\n3. The team with the ball has to run around the court, and the other team has to try to catch the ball.\n\n4. The team with the ball has to keep the ball in their possession for as long as possible, and the other team has to try to get it.\n\n5. The team with the ball has to keep the ball in their possession for as long as possible, and the other team has to try to get it.\n\n6. The team with the ball has to keep the ball in their possession for as long as possible, and the other team has to try to get it.\n\n7. The team with the ball has to keep the ball in their possession for as long as possible, and the other team has to try to get it.\n\n8. The team with the ball has to keep the ball in their possession for as long as possible, and the other team has to try to get it.\n\n9. The team with the ball has to keep the ball in their possession for as long",
+    "generator": "sft",
+    "dataset": "alpaca_eval",
+    "num_new_tokens": 256,
+    "finished": false
+  },
+  {
+    "id": "alpaca-eval-0003",
+    "instruction": "What is some cool music from the 1920s?",
+    "output": "1. \"The Star-Spangled Banner\" by Francis Scott Key\n2. \"The Star-Spangled Banner\" by Francis Scott Key\n3. \"The Star-Spangled Banner\" by Francis Scott Key\n4. \"The Star-Spangled Banner\" by Francis Scott Key\n5. \"The Star-Spangled Banner\" by Francis Scott Key\n6. \"The Star-Spangled Banner\" by Francis Scott Key\n7. \"The Star-Spangled Banner\" by Francis Scott Key\n8. \"The Star-Spangled Banner\" by Francis Scott Key\n9. \"The Star-Spangled Banner\" by Francis Scott Key\n10. \"The Star-Spangled Banner\" by Francis Scott Key.",
+    "generator": "sft",
+    "dataset": "alpaca_eval",
+    "num_new_tokens": 152,
+    "finished": true
+  }
+]

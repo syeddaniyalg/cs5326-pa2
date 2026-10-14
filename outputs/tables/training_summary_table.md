@@ -1,0 +1,6 @@
+| run | train examples | val examples | optimizer steps | best step | train minutes | best val loss | final val loss | best val accuracy | best val margin | final val accuracy | final val margin | trainable parameters |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| SFT | 30000 | 1000 | 938 | 938 | 100.4 | 1.39 | 1.39 |  |  |  |  |  |
+| HH-RLHF DPO | 15000 | 1000 | 469 | 450 | 71.4 | 0.6305 | 0.6331 | 0.657 | 0.2479 | 0.639 | 0.2378 |  |
+| UltraFeedback DPO | 15000 | 1000 | 469 | 200 | 114.2 | 0.5948 | 0.5879 | 0.684 | 0.3914 | 0.68 | 0.478 |  |
+| LoRA-DPO | 198 | 22 |  |  | 1.8 |  | 0.1171 |  |  | 1 | 2.242 | 8683520 |

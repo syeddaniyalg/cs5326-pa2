@@ -1,0 +1,24 @@
+{
+  "total_steps": 469,
+  "best_step": 450,
+  "best_val": {
+    "accuracy": 0.6570000052452087,
+    "margin": 0.24791137874126434,
+    "chosen_reward": -0.3606824278831482,
+    "rejected_reward": -0.6085938215255737,
+    "loss": 0.6304867267608643
+  },
+  "final_val": {
+    "accuracy": 0.6389999985694885,
+    "margin": 0.23776598274707794,
+    "chosen_reward": -0.4461858570575714,
+    "rejected_reward": -0.6839517951011658,
+    "loss": 0.6330995559692383
+  },
+  "train_examples": 15000,
+  "val_examples": 1000,
+  "effective_batch_size": 32,
+  "beta": 0.1,
+  "reference_checkpoint": "outputs/sft/best",
+  "train_seconds": 4284.2
+}

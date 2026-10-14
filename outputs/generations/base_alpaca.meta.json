@@ -1,0 +1,23 @@
+{
+  "model_path": "Qwen/Qwen2.5-0.5B",
+  "adapter_path": null,
+  "prompts_path": "eval_sets/alpaca_eval_300_seed42.json",
+  "output_path": "outputs/generations/base_alpaca.json",
+  "generator_name": "qwen2.5-0.5b-base",
+  "dataset_name": "alpaca_eval",
+  "prompt_format": "template",
+  "max_new_tokens": 256,
+  "max_prompt_tokens": 256,
+  "batch_size": 64,
+  "repetition_penalty": 1.0,
+  "no_repeat_ngram_size": 0,
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "dtype": "float16",
+  "device": "cuda:0",
+  "limit": null,
+  "print_outputs": false,
+  "seed": 42,
+  "num_prompts": 300,
+  "finished_at": "2026-10-15 00:48:07"
+}

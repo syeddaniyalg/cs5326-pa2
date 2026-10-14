@@ -1,0 +1,19 @@
+{
+  "torch": "2.11.0+cu128",
+  "transformers": "4.57.6",
+  "datasets": "4.8.5",
+  "cuda_available": true,
+  "gpu_count": 2,
+  "gpus": [
+    {
+      "index": 0,
+      "name": "Tesla T4",
+      "memory_gib": 14.6
+    },
+    {
+      "index": 1,
+      "name": "Tesla T4",
+      "memory_gib": 14.6
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "sft": {
+    "dataset": "HuggingFaceH4/ultrachat_200k",
+    "train_split": "train_sft",
+    "val_split": "test_sft",
+    "seed": 42,
+    "requested_train": 30000,
+    "requested_val": 1000,
+    "train_examples": 30000,
+    "val_examples": 1000
+  },
+  "hh": {
+    "dataset": "Anthropic/hh-rlhf",
+    "train_split": "train",
+    "val_split": "test",
+    "seed": 42,
+    "requested_train": 15000,
+    "requested_val": 1000,
+    "train_examples": 15000,
+    "val_examples": 1000
+  },
+  "ultrafeedback": {
+    "dataset": "HuggingFaceH4/ultrafeedback_binarized",
+    "train_split": "train_prefs",
+    "val_split": "test_prefs",
+    "seed": 42,
+    "requested_train": 15000,
+    "requested_val": 1000,
+    "train_examples": 15000,
+    "val_examples": 1000
+  }
+}

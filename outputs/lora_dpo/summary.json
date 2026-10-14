@@ -1,0 +1,26 @@
+{
+  "train_examples": 198,
+  "val_examples": 22,
+  "trainable_parameters": 8683520,
+  "total_parameters": 370504640,
+  "final_eval": {
+    "eval_loss": 0.11709101498126984,
+    "eval_runtime": 1.3441,
+    "eval_samples_per_second": 16.367,
+    "eval_steps_per_second": 4.464,
+    "eval_entropy": 2.722840348879496,
+    "eval_num_tokens": 114984.0,
+    "eval_logits/chosen": 0.4873125035846592,
+    "eval_logits/rejected": 0.7657096569009464,
+    "eval_mean_token_accuracy": 0.34264737367630005,
+    "eval_rewards/chosen": 1.056729217370351,
+    "eval_rewards/rejected": -1.1847777167956035,
+    "eval_rewards/accuracies": 1.0,
+    "eval_rewards/margins": 2.2415068546930947,
+    "eval_logps/chosen": -157.46005249023438,
+    "eval_logps/rejected": -139.5485356648763,
+    "epoch": 3.0
+  },
+  "base_model": "HuggingFaceTB/SmolLM2-360M-Instruct",
+  "train_seconds": 110.9
+}
