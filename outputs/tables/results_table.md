@@ -1,0 +1,6 @@
+| track | candidate | baseline | rubric | judge | pairs | wins | ties | losses | unknown | failures | win rate (no ties) | win rate (ties = 0.5) | 95% CI | sign-test p | retried pairs |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| dpo_hh_vs_sft | dpo_hh | sft | safety | google/gemini-3.6-flash | 300 | 152 | 61 | 87 | 0 | 0 | 0.636 | 0.6083 | [0.573, 0.694] | 3.131e-05 | 5 |
+| dpo_uf_vs_sft | dpo_uf | sft | general | google/gemini-3.6-flash | 300 | 114 | 62 | 124 | 0 | 0 | 0.479 | 0.4833 | [0.416, 0.542] | 0.5597 | 0 |
+| lora_vs_base_quality | lora_dpo | smollm2-instruct | persona_quality | google/gemini-3.6-flash | 40 | 10 | 5 | 25 | 0 | 0 | 0.2857 | 0.3125 | [0.163, 0.451] | 0.01667 | 0 |
+| lora_vs_base_style | lora_dpo | smollm2-instruct | persona_style | google/gemini-3.6-flash | 40 | 29 | 11 | 0 | 0 | 0 | 1 | 0.8625 | [0.883, 1.000] | 3.725e-09 | 0 |

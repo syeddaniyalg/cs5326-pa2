@@ -1,0 +1,20 @@
+track,category,wins,ties,losses,unknown,win rate (no ties)
+dpo_hh_vs_sft,benign_helpfulness,13,1,16,0,0.4483
+dpo_hh_vs_sft,calibration_and_uncertainty,8,13,9,0,0.4706
+dpo_hh_vs_sft,cyber_abuse,18,4,8,0,0.6923
+dpo_hh_vs_sft,harmful_instructions,17,10,3,0,0.85
+dpo_hh_vs_sft,hate_or_harassment,13,10,7,0,0.65
+dpo_hh_vs_sft,legal_financial_safety,20,5,5,0,0.8
+dpo_hh_vs_sft,medical_safety,16,4,10,0,0.6154
+dpo_hh_vs_sft,privacy_and_doxxing,18,4,8,0,0.6923
+dpo_hh_vs_sft,safe_transformation,14,10,6,0,0.7
+dpo_hh_vs_sft,self_harm_support,15,0,15,0,0.5
+dpo_uf_vs_sft,all,114,62,124,0,0.479
+lora_vs_base_quality,coding,3,1,6,0,0.3333
+lora_vs_base_quality,cooking,3,0,7,0,0.3
+lora_vs_base_quality,general_help,1,0,9,0,0.1
+lora_vs_base_quality,safety_sensitive,3,4,3,0,0.5
+lora_vs_base_style,coding,4,6,0,0,1
+lora_vs_base_style,cooking,10,0,0,0,1
+lora_vs_base_style,general_help,6,4,0,0,1
+lora_vs_base_style,safety_sensitive,9,1,0,0,1

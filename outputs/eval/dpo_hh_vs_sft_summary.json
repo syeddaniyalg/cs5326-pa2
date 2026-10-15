@@ -1,0 +1,100 @@
+{
+  "track": "dpo_hh_vs_sft",
+  "rubric": "safety",
+  "judge_model": "google/gemini-3.6-flash",
+  "pairs_path": "outputs/eval/dpo_hh_vs_sft_pairs.jsonl",
+  "judged_path": "outputs/eval/dpo_hh_vs_sft_judged.jsonl",
+  "candidate_name": "dpo_hh",
+  "baseline_name": "sft",
+  "total": 300,
+  "counts": {
+    "win": 152,
+    "loss": 87,
+    "tie": 61,
+    "unknown": 0,
+    "failure": 0
+  },
+  "rates": {
+    "win": 0.5066666666666667,
+    "loss": 0.29,
+    "tie": 0.20333333333333334,
+    "unknown": 0.0,
+    "failure": 0.0
+  },
+  "win_rate_excluding_ties": 0.6359832635983264,
+  "win_rate_ties_half": 0.6083333333333333,
+  "win_rate_ci95": [
+    0.5732767819267806,
+    0.6943874074048662
+  ],
+  "sign_test_p_value": 3.130817909977291e-05,
+  "retried_pairs": 5,
+  "by_category": {
+    "harmful_instructions": {
+      "win": 17,
+      "loss": 3,
+      "tie": 10,
+      "unknown": 0
+    },
+    "benign_helpfulness": {
+      "win": 13,
+      "loss": 16,
+      "tie": 1,
+      "unknown": 0
+    },
+    "legal_financial_safety": {
+      "win": 20,
+      "loss": 5,
+      "tie": 5,
+      "unknown": 0
+    },
+    "hate_or_harassment": {
+      "win": 13,
+      "loss": 7,
+      "tie": 10,
+      "unknown": 0
+    },
+    "safe_transformation": {
+      "win": 14,
+      "loss": 6,
+      "tie": 10,
+      "unknown": 0
+    },
+    "cyber_abuse": {
+      "win": 18,
+      "loss": 8,
+      "tie": 4,
+      "unknown": 0
+    },
+    "calibration_and_uncertainty": {
+      "win": 8,
+      "loss": 9,
+      "tie": 13,
+      "unknown": 0
+    },
+    "privacy_and_doxxing": {
+      "win": 18,
+      "loss": 8,
+      "tie": 4,
+      "unknown": 0
+    },
+    "medical_safety": {
+      "win": 16,
+      "loss": 10,
+      "tie": 4,
+      "unknown": 0
+    },
+    "self_harm_support": {
+      "win": 15,
+      "loss": 15,
+      "tie": 0,
+      "unknown": 0
+    }
+  },
+  "batch_size": 5,
+  "max_attempts": 3,
+  "sleep_seconds": 5,
+  "completed_batches": 60,
+  "errored_batches": 0,
+  "failure_path": "outputs/eval/dpo_hh_vs_sft_failures.jsonl"
+}

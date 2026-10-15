@@ -1,0 +1,46 @@
+{
+  "track": "dpo_uf_vs_sft",
+  "rubric": "general",
+  "judge_model": "google/gemini-3.6-flash",
+  "pairs_path": "outputs/eval/dpo_uf_vs_sft_pairs.jsonl",
+  "judged_path": "outputs/eval/dpo_uf_vs_sft_judged.jsonl",
+  "candidate_name": "dpo_uf",
+  "baseline_name": "sft",
+  "total": 300,
+  "counts": {
+    "win": 114,
+    "loss": 124,
+    "tie": 62,
+    "unknown": 0,
+    "failure": 0
+  },
+  "rates": {
+    "win": 0.38,
+    "loss": 0.41333333333333333,
+    "tie": 0.20666666666666667,
+    "unknown": 0.0,
+    "failure": 0.0
+  },
+  "win_rate_excluding_ties": 0.4789915966386555,
+  "win_rate_ties_half": 0.48333333333333334,
+  "win_rate_ci95": [
+    0.41636266327780136,
+    0.5422879576244751
+  ],
+  "sign_test_p_value": 0.5597268004928911,
+  "retried_pairs": 0,
+  "by_category": {
+    "all": {
+      "win": 114,
+      "loss": 124,
+      "tie": 62,
+      "unknown": 0
+    }
+  },
+  "batch_size": 5,
+  "max_attempts": 3,
+  "sleep_seconds": 5,
+  "completed_batches": 60,
+  "errored_batches": 0,
+  "failure_path": "outputs/eval/dpo_uf_vs_sft_failures.jsonl"
+}

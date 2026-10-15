@@ -1,0 +1,282 @@
+{
+  "judge_model": "google/gemini-3.6-flash",
+  "batch_size": 5,
+  "max_attempts": 3,
+  "sleep_seconds": 5,
+  "tracks": {
+    "dpo_uf_vs_sft": {
+      "track": "dpo_uf_vs_sft",
+      "rubric": "general",
+      "judge_model": "google/gemini-3.6-flash",
+      "pairs_path": "outputs/eval/dpo_uf_vs_sft_pairs.jsonl",
+      "judged_path": "outputs/eval/dpo_uf_vs_sft_judged.jsonl",
+      "candidate_name": "dpo_uf",
+      "baseline_name": "sft",
+      "total": 300,
+      "counts": {
+        "win": 114,
+        "loss": 124,
+        "tie": 62,
+        "unknown": 0,
+        "failure": 0
+      },
+      "rates": {
+        "win": 0.38,
+        "loss": 0.41333333333333333,
+        "tie": 0.20666666666666667,
+        "unknown": 0.0,
+        "failure": 0.0
+      },
+      "win_rate_excluding_ties": 0.4789915966386555,
+      "win_rate_ties_half": 0.48333333333333334,
+      "win_rate_ci95": [
+        0.41636266327780136,
+        0.5422879576244751
+      ],
+      "sign_test_p_value": 0.5597268004928911,
+      "retried_pairs": 0,
+      "by_category": {
+        "all": {
+          "win": 114,
+          "loss": 124,
+          "tie": 62,
+          "unknown": 0
+        }
+      },
+      "batch_size": 5,
+      "max_attempts": 3,
+      "sleep_seconds": 5,
+      "completed_batches": 60,
+      "errored_batches": 0,
+      "failure_path": "outputs/eval/dpo_uf_vs_sft_failures.jsonl"
+    },
+    "dpo_hh_vs_sft": {
+      "track": "dpo_hh_vs_sft",
+      "rubric": "safety",
+      "judge_model": "google/gemini-3.6-flash",
+      "pairs_path": "outputs/eval/dpo_hh_vs_sft_pairs.jsonl",
+      "judged_path": "outputs/eval/dpo_hh_vs_sft_judged.jsonl",
+      "candidate_name": "dpo_hh",
+      "baseline_name": "sft",
+      "total": 300,
+      "counts": {
+        "win": 152,
+        "loss": 87,
+        "tie": 61,
+        "unknown": 0,
+        "failure": 0
+      },
+      "rates": {
+        "win": 0.5066666666666667,
+        "loss": 0.29,
+        "tie": 0.20333333333333334,
+        "unknown": 0.0,
+        "failure": 0.0
+      },
+      "win_rate_excluding_ties": 0.6359832635983264,
+      "win_rate_ties_half": 0.6083333333333333,
+      "win_rate_ci95": [
+        0.5732767819267806,
+        0.6943874074048662
+      ],
+      "sign_test_p_value": 3.130817909977291e-05,
+      "retried_pairs": 5,
+      "by_category": {
+        "harmful_instructions": {
+          "win": 17,
+          "loss": 3,
+          "tie": 10,
+          "unknown": 0
+        },
+        "benign_helpfulness": {
+          "win": 13,
+          "loss": 16,
+          "tie": 1,
+          "unknown": 0
+        },
+        "legal_financial_safety": {
+          "win": 20,
+          "loss": 5,
+          "tie": 5,
+          "unknown": 0
+        },
+        "hate_or_harassment": {
+          "win": 13,
+          "loss": 7,
+          "tie": 10,
+          "unknown": 0
+        },
+        "safe_transformation": {
+          "win": 14,
+          "loss": 6,
+          "tie": 10,
+          "unknown": 0
+        },
+        "cyber_abuse": {
+          "win": 18,
+          "loss": 8,
+          "tie": 4,
+          "unknown": 0
+        },
+        "calibration_and_uncertainty": {
+          "win": 8,
+          "loss": 9,
+          "tie": 13,
+          "unknown": 0
+        },
+        "privacy_and_doxxing": {
+          "win": 18,
+          "loss": 8,
+          "tie": 4,
+          "unknown": 0
+        },
+        "medical_safety": {
+          "win": 16,
+          "loss": 10,
+          "tie": 4,
+          "unknown": 0
+        },
+        "self_harm_support": {
+          "win": 15,
+          "loss": 15,
+          "tie": 0,
+          "unknown": 0
+        }
+      },
+      "batch_size": 5,
+      "max_attempts": 3,
+      "sleep_seconds": 5,
+      "completed_batches": 60,
+      "errored_batches": 0,
+      "failure_path": "outputs/eval/dpo_hh_vs_sft_failures.jsonl"
+    },
+    "lora_vs_base_style": {
+      "track": "lora_vs_base_style",
+      "rubric": "persona_style",
+      "judge_model": "google/gemini-3.6-flash",
+      "pairs_path": "outputs/eval/lora_vs_base_pairs.jsonl",
+      "judged_path": "outputs/eval/lora_vs_base_style_judged.jsonl",
+      "candidate_name": "lora_dpo",
+      "baseline_name": "smollm2-instruct",
+      "total": 40,
+      "counts": {
+        "win": 29,
+        "loss": 0,
+        "tie": 11,
+        "unknown": 0,
+        "failure": 0
+      },
+      "rates": {
+        "win": 0.725,
+        "loss": 0.0,
+        "tie": 0.275,
+        "unknown": 0.0,
+        "failure": 0.0
+      },
+      "win_rate_excluding_ties": 1.0,
+      "win_rate_ties_half": 0.8625,
+      "win_rate_ci95": [
+        0.8830264055344442,
+        1.0
+      ],
+      "sign_test_p_value": 3.725290298461914e-09,
+      "retried_pairs": 0,
+      "by_category": {
+        "cooking": {
+          "win": 10,
+          "loss": 0,
+          "tie": 0,
+          "unknown": 0
+        },
+        "coding": {
+          "win": 4,
+          "loss": 0,
+          "tie": 6,
+          "unknown": 0
+        },
+        "general_help": {
+          "win": 6,
+          "loss": 0,
+          "tie": 4,
+          "unknown": 0
+        },
+        "safety_sensitive": {
+          "win": 9,
+          "loss": 0,
+          "tie": 1,
+          "unknown": 0
+        }
+      },
+      "batch_size": 5,
+      "max_attempts": 3,
+      "sleep_seconds": 5,
+      "completed_batches": 8,
+      "errored_batches": 0,
+      "failure_path": "outputs/eval/lora_vs_base_style_failures.jsonl"
+    },
+    "lora_vs_base_quality": {
+      "track": "lora_vs_base_quality",
+      "rubric": "persona_quality",
+      "judge_model": "google/gemini-3.6-flash",
+      "pairs_path": "outputs/eval/lora_vs_base_pairs.jsonl",
+      "judged_path": "outputs/eval/lora_vs_base_quality_judged.jsonl",
+      "candidate_name": "lora_dpo",
+      "baseline_name": "smollm2-instruct",
+      "total": 40,
+      "counts": {
+        "win": 10,
+        "loss": 25,
+        "tie": 5,
+        "unknown": 0,
+        "failure": 0
+      },
+      "rates": {
+        "win": 0.25,
+        "loss": 0.625,
+        "tie": 0.125,
+        "unknown": 0.0,
+        "failure": 0.0
+      },
+      "win_rate_excluding_ties": 0.2857142857142857,
+      "win_rate_ties_half": 0.3125,
+      "win_rate_ci95": [
+        0.16326363398295565,
+        0.45055248069821086
+      ],
+      "sign_test_p_value": 0.01667384780012071,
+      "retried_pairs": 0,
+      "by_category": {
+        "cooking": {
+          "win": 3,
+          "loss": 7,
+          "tie": 0,
+          "unknown": 0
+        },
+        "coding": {
+          "win": 3,
+          "loss": 6,
+          "tie": 1,
+          "unknown": 0
+        },
+        "general_help": {
+          "win": 1,
+          "loss": 9,
+          "tie": 0,
+          "unknown": 0
+        },
+        "safety_sensitive": {
+          "win": 3,
+          "loss": 3,
+          "tie": 4,
+          "unknown": 0
+        }
+      },
+      "batch_size": 5,
+      "max_attempts": 3,
+      "sleep_seconds": 5,
+      "completed_batches": 8,
+      "errored_batches": 0,
+      "failure_path": "outputs/eval/lora_vs_base_quality_failures.jsonl"
+    }
+  }
+}
