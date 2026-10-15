@@ -170,7 +170,7 @@ PYTHONPATH=. python -m pytest -q tests
 
 On Windows PowerShell, set the path first with `$env:PYTHONPATH = "."`.
 
-The test suite has 50 tests. It contains the public adapter smoke tests and extra tests for truncation boundaries, row order, response-only scoring, the DPO loss formula, reference detachment, unusual tokenizers and model outputs, and the judging utilities. The tests run offline and do not need a GPU.
+The test suite has 53 tests. It contains the public adapter smoke tests and extra tests for truncation boundaries, row order, response-only scoring, the DPO loss formula, reference detachment, unusual tokenizers and model outputs, short optimization runs (the loss falls and the reward margin rises while the reference stays unchanged), and the judging utilities. The tests run offline and do not need a GPU.
 
 ## 9. Notes and Limitations
 

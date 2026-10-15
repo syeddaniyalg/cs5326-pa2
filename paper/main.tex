@@ -88,7 +88,7 @@ SFT minimizes the mean cross-entropy over unmasked response tokens in each batch
 \end{equation}
 Validation reports the loss, the reward accuracy (the fraction of pairs with $r_w>r_l$, where $r=\beta\log(\pi_\theta/\pi_{\mathrm{ref}})$), and the mean reward margin $r_w-r_l$. The reference pass runs under \code{no\_grad}.
 
-Training ran on Kaggle with two Tesla T4 GPUs (14.6 GiB each), PyTorch 2.11.0+cu128, Transformers 4.57.6, and Datasets 4.8.5. The trainable policy is kept in FP32 with FP16 autocast and gradient scaling. For full-parameter DPO the policy is placed on \code{cuda:0} and the frozen FP16 reference copy on \code{cuda:1}. Both DPO runs start from the selected SFT checkpoint, which is also their reference. The public adapter tests and additional edge-case tests (50 in total) pass in the training notebook.
+Training ran on Kaggle with two Tesla T4 GPUs (14.6 GiB each), PyTorch 2.11.0+cu128, Transformers 4.57.6, and Datasets 4.8.5. The trainable policy is kept in FP32 with FP16 autocast and gradient scaling. For full-parameter DPO the policy is placed on \code{cuda:0} and the frozen FP16 reference copy on \code{cuda:1}. Both DPO runs start from the selected SFT checkpoint, which is also their reference. The public adapter tests and additional edge-case tests pass in the training notebook.
 
 \subsection{Configuration}
 
