@@ -58,7 +58,7 @@ eval_sets/                 Fixed evaluation prompts
 data/persona_lora/         Persona preference pairs (provided)
 data/processed/            Manifest of the prepared training subsets
 outputs/                   Metrics, generations, judgments, figures, tables
-paper/                     Report source: main.tex, neurips.sty, figures/
+paper/                     Report: main.pdf, with source main.tex, neurips.sty, figures/
 docs/                      Assignment manual
 ```
 
@@ -182,4 +182,4 @@ The test suite has 53 tests. It contains the public adapter smoke tests and extr
 
 ## 10. Report
 
-The report source is in `paper/` (`main.tex`, `neurips.sty`, and `figures/`). It uses the NeurIPS preprint style and can be compiled with `pdflatex` or on Overleaf. The values in the report come from `outputs/eval/*_summary.json` and `outputs/*/summary.json`.
+The compiled report is `paper/main.pdf` (8 pages). Its source is in the same folder (`main.tex`, `neurips.sty`, and `figures/`). It uses the NeurIPS preprint style and can be compiled with `pdflatex` or on Overleaf. The values in the report come from `outputs/eval/*_summary.json` and `outputs/*/summary.json`.
